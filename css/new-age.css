@@ -35,7 +35,6 @@ hr.light {
   border-color: white;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -47,17 +46,57 @@ h6 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   margin-bottom: 20px;
+  color: #808080;
 }
 
 section {
-  padding: 100px 0;
+  padding: 70px;
 }
 
-section h2 {
-  font-size: 50px;
+.desc {
+  margin:0 auto;
+  align: "center";
+  font-size: 20px;
+  max-width: 700px;
+  color: #2f4f4f;
+}
+
+.descLeft {
+  align: "left";
+  font-size: 20px;
+  max-width: 700px;
+  color: #2f4f4f;
+}
+
+
+#battery {
+  width: 100px;
+}
+
+#efficiency {
+  padding-top: 15px;
+  width: 70px;
+  padding-bottom: 15px;
+}
+
+#dashboard {
+  padding-top: 15px;
+  width: 100px;
+  padding-bottom: 15px;
+}
+
+#reports {
+  padding-top: 15px;
+  width: 100px;
+  padding-bottom: 15px;
+}
+
+.content {
+  text-align: center;
+  padding-top: 20px;
 }
 
 #mainNav {
@@ -165,7 +204,7 @@ header.masthead {
 
 header.masthead .header-content {
   max-width: 500px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -185,21 +224,23 @@ header.masthead .device-container .screen img {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
-    min-height: 775px;
-    padding-top: 0;
-    padding-bottom: 0;
+    height: 90vh;
+    min-height: 100px;
   }
   header.masthead .header-content {
     margin-bottom: 0;
     text-align: left;
   }
   header.masthead .header-content h1 {
-    font-size: 50px;
+    font-size: 90px;
   }
   header.masthead .device-container {
     max-width: 325px;
   }
+  h1 {
+    font-size: 60px;
+  }
+
 }
 
 section.download {
@@ -244,6 +285,8 @@ section.features .section-heading {
 
 section.features .section-heading h2 {
   margin-top: 0;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 section.features .section-heading p {
@@ -252,7 +295,7 @@ section.features .section-heading p {
 
 section.features .device-container,
 section.features .feature-item {
-  max-width: 325px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -267,8 +310,8 @@ section.features .device-container {
 }
 
 section.features .feature-item {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 20px;
   text-align: center;
 }
 
@@ -288,7 +331,7 @@ section.features .feature-item i {
 
 section.cta {
   position: relative;
-  padding: 250px 0;
+  padding: 150px 0;
   background-image: url("../img/bg-cta.jpg");
   background-position: center;
   background-size: cover;
@@ -300,8 +343,16 @@ section.cta .cta-content {
 }
 
 section.cta .cta-content h2 {
-  font-size: 50px;
-  max-width: 450px;
+  font-size: 40px;
+  max-width: 600px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: white;
+}
+
+section.cta .cta-content p {
+  font-size: 20px;
+  max-width: 600px;
   margin-top: 0;
   margin-bottom: 25px;
   color: white;
@@ -309,9 +360,10 @@ section.cta .cta-content h2 {
 
 @media (min-width: 768px) {
   section.cta .cta-content h2 {
-    font-size: 80px;
+    font-size: 60px;
   }
 }
+
 
 section.cta .overlay {
   position: absolute;
