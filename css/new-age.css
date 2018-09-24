@@ -225,8 +225,9 @@ header.masthead .header-content {
   text-align: center;
 }
 
-header.masthead .header-content h1 {
+header.masthead h1 {
   font-size: 30px;
+  width: 270px;
 }
 
 header.masthead .device-container {
@@ -239,7 +240,7 @@ header.masthead .device-container .screen img {
   border-radius: 3px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   header.masthead {
     height: 90vh;
     min-height: 100px;
@@ -248,16 +249,13 @@ header.masthead .device-container .screen img {
     margin-bottom: 0;
     text-align: left;
   }
-  header.masthead .header-content h1 {
-    font-size: 90px;
+  header.masthead h1 {
+    font-size: 60px;
+    width: 550px;
   }
   header.masthead .device-container {
     max-width: 325px;
   }
-  h1 {
-    font-size: 60px;
-  }
-
 }
 
 
